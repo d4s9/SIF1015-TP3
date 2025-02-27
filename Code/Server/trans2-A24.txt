@@ -1,0 +1,12 @@
+B
+L 1-4
+X 1 Mult-Numbers.olc3
+X 1 Mult-Numbers.olc3
+X 1 Mult-Numbers.olc3
+X 1 Mult-Numbers.olc3
+L 1-4
+E 2
+L 1-4
+X 0 Mult-NumbersErreur.olc3
+X 1 Mult-Numbers.olc3
+L 1-4

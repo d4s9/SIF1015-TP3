@@ -1,0 +1,4 @@
+fichCVSEXE: fichCVS.c
+
+	gcc -o fichCVSEXE fichCVS.c
+

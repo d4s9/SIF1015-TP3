@@ -1,0 +1,4 @@
+fichCVS-EXE: fichCVS.o
+	gcc -o fichCVS-EXE fichCVS.o
+fichCVS.o: fich.c
+	gcc -c fich.c -Wall -I
