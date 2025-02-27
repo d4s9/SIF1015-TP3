@@ -62,4 +62,31 @@ Le serveur démarre un **thread** distinct pour chaque client afin de traiter se
 ```bash
 gcc server.c -o server -lpthread
 gcc client.c -o client
+```
 
+Exécution
+
+Lancer le serveur :
+```bash
+./gestionVMS_MAIN
+```
+Lancer le client :
+```bash
+./main <adresse_ip_du_serveur>
+```
+Auteurs
+
+Derek Stevens (STED71290300)
+Yoan Tremblay (TREY87020409)
+Nathan Pinard (PINN85050400)
+Yannick Lemire (LEMY14307400)
+Malyk Ratelle (RATM73060406)
+
+
+Université du Québec à Trois-Rivières
+
+SIF1015 - Système d’exploitation
+
+Licence
+
+Projet académique réalisé dans le cadre du cours SIF1015.
