@@ -48,8 +48,18 @@ Le serveur démarre un **thread** distinct pour chaque client afin de traiter se
      - `listMemoryMap()` pour le mapping mémoire.
 
 ---
+## Exemple d'utilisation
+
+![image](https://github.com/user-attachments/assets/83be1cbd-5c10-485b-8e53-0307552b5fcc)
+![image](https://github.com/user-attachments/assets/f2a2c077-446b-483a-96a0-5556d0b78fda)
+![image](https://github.com/user-attachments/assets/7f426f1c-037b-4e26-9a6c-135de2bcf357)
+![image](https://github.com/user-attachments/assets/d1dc86c7-87f0-4236-8b23-34754975a1f3)
+![image](https://github.com/user-attachments/assets/3766887c-3100-480d-a20f-caf42aefa9cb)
+
+---
 
 ## Compilation
 ```bash
 gcc server.c -o server -lpthread
 gcc client.c -o client
+
