@@ -23,14 +23,25 @@ Le serveur démarre un **thread** distinct pour chaque client afin de traiter se
 
 ---
 
-## Commandes
 
+
+---
+
+## Commandes
+# Pour un utilisateur:
 | Commande       | Description                          |
 |---------------|-------------------------------------|
-| `s <filename>` | Demande des informations sur un fichier. |
-| `F`           | Affiche la liste des fichiers ouverts du processus serveur. |
-| `M`           | Affiche les informations des régions mémoire du processus serveur. |
-| `quit`        | Déconnecte le client du serveur. |
+| `B` | Liste les fichiers OLC3 du dossier présent |
+| `X # nom_fichier_olc3` | Lance l’exécution d’un fichier OLC3 avec affichage ou non (0 ou 1). Exemple : X 1 Mult-Numbers.olc3 |
+| `Q`           | Quitte le programme |
+
+# Pour un administrateur:
+| Commande       | Description                          |
+|---------------|-------------------------------------|
+| `L #` | Liste les informations des VM (ex : L1-4 liste les infos des VM #1 à 4) |
+| `E no_VM` | Efface la VM spécifiée (ex : E 2 efface la VM #2) |
+| `P`           | Exécute ps –aux dans le terminal et affiche les processus actifs |
+| `K #_de_TID`           | Termine l’exécution du fichier correspondant au TID (ex : K 2088) |
 
 ---
 
@@ -75,7 +86,7 @@ Lancer le client :
 ./main <adresse_ip_du_serveur>
 ```
 ---
-##Auteurs
+## Auteurs
 
 Derek Stevens (STED71290300)
 Yoan Tremblay (TREY87020409)
